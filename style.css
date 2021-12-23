@@ -1,0 +1,97 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+body{
+    margin:0% 20%;
+    background-color: #ffffff;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+header{
+    background-color: #d0f9ff;
+    height: 200px;
+
+}
+#nav a{
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+}
+#nav a:hover{
+    color: brown;
+}
+#nav{
+    text-align: center;
+    padding-top: 1%;
+    margin: auto;
+    background-color: #6AEBFD;
+    height: 40px;
+ 
+}
+#myPhoto{
+   height: 80%;
+}
+#briefInform{
+    padding: 2%;
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    top: 5%;
+
+}
+main{
+    background-color: #d0f9ff;
+    height: 100%;
+}
+.icon{
+    width: 20px;
+}
+#codeExamples{
+    
+    overflow: auto;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 3%;
+    margin-bottom: 3%;
+    width: 40%;
+    
+}
+#Eng{
+    margin-bottom: 0px;
+}
+.codeExamples{
+    position: absolute;
+    left: 45%;
+    top: 240px;
+    width: 35%;
+    height: ;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#RSScholl{
+    width: 20%;
+}
+footer{
+    text-align: left;
+    height: 10%;
+    background-color: #6AEBFD;
+   
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20%;
+    margin-top: 6px;
+    
+}

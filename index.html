@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header >
+        <a name="top"></a>
+        <h1>Olga Grechanyuk</h1>
+       <img id="myPhoto" src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg" alt="myPhoto">
+        <div id="briefInform">
+        <h2>Brief information about yourself</h2>
+        I worked in an educational institution for 2 years. I tried a lot of new things and settled on front-end.
+        </div>  
+    </header> 
+    <div id="nav">
+        <nav>
+            <a href="#ContactPerson">Contact Person</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Code">Code examples</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Education">Education</a>
+            <a href="#English">English</a>
+            
+        </nav>
+    </div>
+      <main>
+       <div class="content" >
+           <h2><a name="ContactPerson"></a> Contact Person</h2>
+        <ul>
+            <li> <img src="https://e7.pngegg.com/pngimages/907/456/png-clipart-computer-icons-telephone-call-iphone-old-phone-icon-text-telephone-call.png" alt="phone icon" class="icon"> +375(33)641 51 37</li>
+            <li><img src="https://e7.pngegg.com/pngimages/292/387/png-clipart-gmail-computer-icons-email-gmail-angle-rectangle.png" alt="gmail icon" class="icon"> grechanyuko@gmail.com</li>
+            <li><img src="https://www.anti-malware.ru/files/styles/imagesize400w/public/images/source/snimok_ekrana_2020-01-14_v_16.36.41.png?itok=ELx_kbMi" alt="discord icon" class="icon" > OlgaGre</li>
+        </ul>
+        </div>
+       <div class="content">
+           <h2><a name="Skills"></a> Skills</h2>
+           <ul>
+           <li>html</li>
+           <li>css</li>
+           <li>js </li>
+        </ul>
+       </div>
+       <div class="content codeExamples">
+           <h2><a name="Code"></a> Code examples</h2>
+           <div id="codeExamples">
+       <code>
+           <pre>
+            function fakeBin(x) {
+                let str = String(x);
+                let arr = [];
+                for (let i = 0; i < str.length; i++) {
+                     arr[i] = str[i] <= 5 ? 0 : 1;
+                    }   
+                return arr.join('')
+            }
+                function digits(n) {
+                     let N = String(n)
+                     N = N.split('')
+                     return N.length
+                    }  
+
+
+
+                    
+           </pre>
+       </code>
+           </div>
+        </div>
+       <div class="content">
+           <h2><a name="Experience"></a> Experience</h2>
+           <ul><li>2019-2021|Teacher of Russian language and literature</li></ul>
+       </div>
+       <div class="content">
+           <h2><a name="Education"></a> Education</h2></ol>
+           <ol>
+            <li>BREST STATE A.S. PUSHKIN UNIVERSITY <br> Russian language and literature. Foreign language (English)(2015-2019)</li>
+           <li>HTML for beginners</li>
+           <li>CSS for beginners</li>
+       </ol>
+        </div>
+       <div class="content" id="Eng">
+           <h2><a name="English"></a> English A2</h2>
+        </div>
+      
+
+      </main>
+      <footer >
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="course logo" id="RSScholl"> </a>
+            <a href="#top">top</a>
+        <a href="https://github.com/OlgaGre">My GitHub 2021</a> 
+        
+       
+      </footer>
+
+
+
+
+</body>
+</html>
