@@ -29,4 +29,11 @@ I was working at the Lyceum for 2 years and at that time I got carried away with
 ```
 ## Experience
 2019-2021|Teacher of Russian language and literature
+## Education
+|         Place of study              |                               Course                                          |
+|:-----------------------------------:|:-----------------------------------------------------------------------------:| 
+| BREST STATE A.S. PUSHKIN UNIVERSITY | Russian language and literature.(2015-2019)                                   | 
+| code-basics.com                     | [HTML for beginners](https://ru.code-basics.com/languages/html)(2021)         |
+| code-basics.com                     | [CSS for beginners](https://ru.code-basics.com/languages/css)(2021)           | 
+
 
