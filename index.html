@@ -8,7 +8,105 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div id="contenerCenter">
+<header>
+    <h1>Olga Grechaniuk</h1>
+    <div id="photoAndFront">
+<p><img src="img/photo.jpg" alt="my photo" id="myPhoto"></p>
+<p>Front-end web developer (Beginner)</p>
+</div>
+</header>   
+<nav>
+<ul>
+    <li><a href="#Contacts">Contacts</a></li>
+    <li><a href="#AboutMe">About Me</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#CodeExample">Code Example</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#Education">Education</a></li>
+    <li><a href="#English">English</a></li>
+</ul>
+    </nav>
+
+<main>
+    <table>
+<tr>
+    <td class="theFirstColumn" id="Contacts"><h2>Contacts</h2></td>
+    <td class="theSecondColumn" >
+        <ul>
+            <li>Location: Minsk, Belarus</li>
+            <li>Phone: +375 233 641 51 37</li>
+            <li>Email: grechanyuko@gmail.com</li>
+            <li>GitHub: OlgaGre</li>
+        </ul>
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="AboutMe"><h2>About Me</h2></td>
+    <td class="theSecondColumn">I was working at the Lyceum for 2 years and at that time I got carried away with the development. Now my goal is to make it my profession.</td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Skills"><h2>Skills</h2></td>
+    <td class="theSecondColumn">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+        </ul>
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="CodeExample"><h2>Code Example</h2></td>
+    <td class="theSecondColumn">
+        <pre>
+        <code>
+           function fakeBin(x) {
+            let str = String(x);
+            let arr = [];
+            for (let i = 0; i &lt; str.length; i++) {
+                 arr[i] = str[i] &lt;= 5 ? 0 : 1;
+                }   
+            return arr.join('')
+        }
+            function digits(n) {
+                 let N = String(n)
+                 N = N.split('')
+                 return N.length
+                }
+        </code></pre>
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Experience"><h2>Experience</h2></td>
+    <td class="theSecondColumn">2019-2021|Teacher of Russian language and literature</td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Education"><h2>Education</h2></td>
+    <td class="theSecondColumn">
+      <ul>
+          <li>BREST STATE A.S. PUSHKIN UNIVERSITY  Russian language and literature.(2015-2019)    </li>
+          <li>HTML for beginners (2021)</li>
+          <li>CSS for beginners (2021)</li>
+      </ul>  
+    </td>
+</tr>
+<tr  >
+    <td class="theFirstColumn" id="English"><h2>English</h2></td>
+    <td class="theSecondColumn">A2</td>
+</tr>
+    </table>
 
 
+</main>
+<footer>
+
+<p><a href="https://github.com/OlgaGre">My GitHub</a> </p>
+<p>2021</p>
+<p><a href="https://rs.school/js/"><img id="rssIcon" src="https://rs.school/images/rs_school_js.svg" alt="rss logo"> </a></p>
+
+
+
+</footer>
+</div>
 </body>
 </html>

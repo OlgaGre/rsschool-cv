@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #5d4d64;
+}
+#contenerCenter{
+    width: 900px;
+    margin: 20px auto;
+    background-color:  #422F4A;
+    
+}
+#myPhoto{
+    width: 23%;
+    border-radius: 180px;
+    border: solid 2px black;
+  
+    
+}
+li{
+    list-style: none;
+}
+nav{
+    position: sticky; 
+    top: 0; 
+   background-color: rgb(170, 170, 170);
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    
+}
+nav li{
+    float: left;
+    margin-left: 15px;
+}
+table{
+    width: 100%;
+}
+.theFirstColumn{
+    text-align: right;
+    height: 100px;
+    width: 15%;
+    background-color: #654F6E;
+}
+.theSecondColumn{
+padding-left: 20px;
+background-color: #C1BBC4;
+}
+#rssIcon{
+    height: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+#photoAndFront{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-right: 100px;
+}
