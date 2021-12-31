@@ -6,7 +6,10 @@
     
 }
 body{
-    background-color: #5d4d64;
+    background-color: #e3dde6;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #contenerCenter{
     width: 900px;
