@@ -4,88 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <header >
-        <a name="top"></a>
-        <h1>Olga Grechanyuk</h1>
-       <img id="myPhoto" src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg" alt="myPhoto">
-        <div id="briefInform">
-        <h2>Brief information about yourself</h2>
-        I worked in an educational institution for 2 years. I tried a lot of new things and settled on front-end.
-        </div>  
-    </header> 
-    <div id="nav">
-        <nav>
-            <a href="#ContactPerson">Contact Person</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Code">Code examples</a>
-            <a href="#Experience">Experience</a>
-            <a href="#Education">Education</a>
-            <a href="#English">English</a>
-            
-        </nav>
-    </div>
-      <main>
-       <div class="content" >
-           <h2><a name="ContactPerson"></a> Contact Person</h2>
+<div id="contenerCenter">
+<header>
+    <h1>Olga Grechaniuk</h1>
+    <div id="photoAndFront">
+<p><img src="img/photo.jpg" alt="my photo" id="myPhoto"></p>
+<p>Front-end web developer (Beginner)</p>
+</div>
+</header>   
+<nav>
+<ul>
+    <li><a href="#Contacts">Contacts</a></li>
+    <li><a href="#AboutMe">About Me</a></li>
+    <li><a href="#Skills">Skills</a></li>
+    <li><a href="#CodeExample">Code Example</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#Education">Education</a></li>
+    <li><a href="#English">English</a></li>
+</ul>
+    </nav>
+
+<main>
+    <table>
+<tr>
+    <td class="theFirstColumn" id="Contacts"><h2>Contacts</h2></td>
+    <td class="theSecondColumn" >
         <ul>
-            <li> <img src="https://e7.pngegg.com/pngimages/907/456/png-clipart-computer-icons-telephone-call-iphone-old-phone-icon-text-telephone-call.png" alt="phone icon" class="icon"> +375(33)641 51 37</li>
-            <li><img src="https://e7.pngegg.com/pngimages/292/387/png-clipart-gmail-computer-icons-email-gmail-angle-rectangle.png" alt="gmail icon" class="icon"> grechanyuko@gmail.com</li>
-            <li><img src="https://www.anti-malware.ru/files/styles/imagesize400w/public/images/source/snimok_ekrana_2020-01-14_v_16.36.41.png?itok=ELx_kbMi" alt="discord icon" class="icon" > OlgaGre</li>
+            <li>Location: Minsk, Belarus</li>
+            <li>Phone: +375 233 641 51 37</li>
+            <li>Email: grechanyuko@gmail.com</li>
+            <li>GitHub: OlgaGre</li>
         </ul>
-        </div>
-       <div class="content">
-           <h2><a name="Skills"></a> Skills</h2>
-           <ul>
-           <li>html</li>
-           <li>css</li>
-           <li>js </li>
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="AboutMe"><h2>About Me</h2></td>
+    <td class="theSecondColumn">I was working at the Lyceum for 2 years and at that time I got carried away with the development. Now my goal is to make it my profession.</td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Skills"><h2>Skills</h2></td>
+    <td class="theSecondColumn">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
         </ul>
-       </div>
-       <div class="content codeExamples">
-           <h2><a name="Code"></a> Code examples</h2>
-           <div id="codeExamples">
-       <code>
-           <pre>
-            function fakeBin(x) {
-                let str = String(x);
-                let arr = [];
-                for (let i = 0; i < str.length; i++) {
-                     arr[i] = str[i] <= 5 ? 0 : 1;
-                    }   
-                return arr.join('')
-            }
-                function digits(n) {
-                     let N = String(n)
-                     N = N.split('')
-                     return N.length
-                    }  
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="CodeExample"><h2>Code Example</h2></td>
+    <td class="theSecondColumn">
+        <pre>
+        <code>
+           function fakeBin(x) {
+            let str = String(x);
+            let arr = [];
+            for (let i = 0; i &lt; str.length; i++) {
+                 arr[i] = str[i] &lt;= 5 ? 0 : 1;
+                }   
+            return arr.join('')
+        }
+            function digits(n) {
+                 let N = String(n)
+                 N = N.split('')
+                 return N.length
+                }
+        </code></pre>
+    </td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Experience"><h2>Experience</h2></td>
+    <td class="theSecondColumn">2019-2021|Teacher of Russian language and literature</td>
+</tr>
+<tr >
+    <td class="theFirstColumn" id="Education"><h2>Education</h2></td>
+    <td class="theSecondColumn">
+      <ul>
+          <li>BREST STATE A.S. PUSHKIN UNIVERSITY  Russian language and literature.(2015-2019)    </li>
+          <li>HTML for beginners (2021)</li>
+          <li>CSS for beginners (2021)</li>
+      </ul>  
+    </td>
+</tr>
+<tr  >
+    <td class="theFirstColumn" id="English"><h2>English</h2></td>
+    <td class="theSecondColumn">A2</td>
+</tr>
+    </table>
+
+
+</main>
+<footer>
+
+<p><a href="https://github.com/OlgaGre">My GitHub</a> </p>
+<p>2021</p>
+<p><a href="https://rs.school/js/"><img id="rssIcon" src="https://rs.school/images/rs_school_js.svg" alt="rss logo"> </a></p>
 
 
 
-                    
-           </pre>
-       </code>
-           </div>
-        </div>
-       <div class="content">
-           <h2><a name="Experience"></a> Experience</h2>
-           <ul><li>2019-2021|Teacher of Russian language and literature</li></ul>
-       </div>
-       <div class="content">
-           <h2><a name="Education"></a> Education</h2></ol>
-           <ol>
-            <li>BREST STATE A.S. PUSHKIN UNIVERSITY <br> Russian language and literature. Foreign language (English)(2015-2019)</li>
-           <li>HTML for beginners</li>
-           <li>CSS for beginners</li>
-       </ol>
-        </div>
-       <div class="content" id="Eng">
-           <h2><a name="English"></a> English A2</h2>
-        </div>
+</footer>
+</div>
+</body>
+</html>
+
       
 
       </main>
