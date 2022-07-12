@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+@media (min-width: 1200px) {
+  .center-container {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .header {
+    .center-container {
+    background-color: aqua;
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
